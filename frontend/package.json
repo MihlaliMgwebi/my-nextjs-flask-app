@@ -1,0 +1,29 @@
+{
+  "name": "my-nextjs-flask-app",
+  "version": "1.0.0",
+  "description": "A Next.js frontend with a Flask backend, designed as a Progressive Web App.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.0.0",
+    "eslint-config-next": "14.0.0",
+    "typescript": "5.0.0"
+  },
+  "keywords": [
+    "nextjs",
+    "flask",
+    "pwa"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

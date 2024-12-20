@@ -1,0 +1,13 @@
+[[build]]
+  command = "npm run build"
+  publish = "frontend/.next"
+
+[[redirects]]
+  from = "/api/*"
+  to = "http://localhost:5000/api/:splat"
+  status = 200
+  force = true
+
+[dev]
+  command = "npm run dev"
+  port = 3000
