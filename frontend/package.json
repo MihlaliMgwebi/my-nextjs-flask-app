@@ -1,11 +1,12 @@
 {
   "name": "my-nextjs-flask-app",
   "version": "1.0.0",
+  "type": "module",
   "description": "A Next.js frontend with a Flask backend, designed as a Progressive Web App.",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "eslint ."
   },
